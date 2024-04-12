@@ -13,13 +13,13 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     color: white;
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: #415d75;
     font-family: var(--fonte-padrao);
 }
 
@@ -78,42 +78,70 @@ nav a:hover {
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 100%;
     margin-bottom: 50px;
     display: block;
+
 }
 
 main h1 {
     background-image: linear-gradient(to right, var(--cor4), transparent);
     text-indent: 8px;
+    font-weight: normal;
 }
 
 #sobre {
-    margin: 10px 0px 30px 7px;
+    margin: 10px 0px 30px 0px;
     overflow: hidden;
 }
 
 #sobre > p {
     font-size: 1.5em;
-    margin-top: 10px;
-    letter-spacing: 2px;
-
-}
-
-img {
-    float: left;
+    text-align: auto;
     margin-top: 10px;
     margin-right: 20px;
+    letter-spacing: 3px;
+    line-height: 23pt;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.61);
+
 }
 
+#sobre img {
+    float: left;
+    margin: 10px 20px 0px 8px;
+    height: 290pt;
+}
 
+#curriculo {
+    margin: 10px 0px 30px 0px;
+    overflow: hidden;
+}
 
+#curriculo h2 {
+    margin: 10px 5px; 
+}
+
+#curriculo p {
+    font-family: var(--font-destaque);
+    font-size: 20px;
+}
+
+#criados h1 {
+    margin-bottom: 10px;
+}
+
+#criados ul {
+    margin-bottom: 10px;   
+    padding: 10px; 
+    font-size: 18pt;
+    line-height: 25pt;
+}
 
 footer {
     background-color:#1b2831;
     font-family: var(--font-destaque);
-    font-size: 1.2em;
-    padding: 10px;
+    font-size: 1.3em;
+    padding: 13px;
     text-align: center;
 }
 
