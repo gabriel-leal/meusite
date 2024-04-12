@@ -34,6 +34,7 @@ a:hover {
  #criados a::before{
     content: "\1f517";
     font-size: 15px;
+    margin-right: 3px;
 }
 
 header {
@@ -111,6 +112,10 @@ main h1 {
     line-height: 23pt;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.61);
 
+}
+
+#sobre a {
+    text-decoration: underline;
 }
 
 #sobre img {
