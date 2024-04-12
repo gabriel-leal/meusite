@@ -1,6 +1,126 @@
 @charset "UTF-8";
 
-body {
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #364E61;
+    --cor1: #37678B;
+    --cor3: #2979B6;
+    --cor4: #0D85E0;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
     color: white;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor3), var(--cor0));
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    min-height: 100px;
+
+}
+
+header > h1{
+    font-size: 45px;
+    font-family: var(--font-padrao);
+    margin-bottom: 4px;
+    text-shadow: 6px 5px 4px rgba(0, 0, 0, 0.267);
+}
+
+header > p{
+    font-family: var(--font-destaque);
+    font-size: 30px;
+    text-shadow: 6px 5px 4px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 23px;
+    font-family: var(--font-destaque);
+    text-decoration: none;
+    color: white;
+    padding-left: 16px;
+}
+
+nav a:hover {
+    background-color: var(--cor0);
+    color: var(--cor4);
+    padding: 5px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+    text-indent: 8px;
+}
+
+#sobre {
+    margin: 10px 0px 30px 7px;
+    overflow: hidden;
+}
+
+#sobre > p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+footer {
+    background-color:#1b2831;
+    font-family: var(--font-destaque);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
 }

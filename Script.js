@@ -8,4 +8,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.getElementById("essesite").onclick = window.alert('Você já está nesse site');
