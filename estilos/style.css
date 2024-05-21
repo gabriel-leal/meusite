@@ -187,6 +187,20 @@ footer a:hover {
     font-weight: bold;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 0.5s;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     span#menu {
         display: block;
