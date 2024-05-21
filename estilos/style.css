@@ -196,11 +196,6 @@ footer a:hover {
         cursor: pointer;
     }
 
-    span#menu:hover {
-        background-color: white;
-        color: var(--cor3);
-    }
-
     menu {
         display: none;
         list-style-type: none;
