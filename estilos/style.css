@@ -194,12 +194,12 @@ footer a:hover {
         text-align: center;
         padding: 10px;
         cursor: pointer;
+        border-bottom: 2px solid var(--cor0);
     }
 
     menu {
         display: none;
         list-style-type: none;
-        
     }
 
     menu ul {
