@@ -190,15 +190,15 @@ footer a:hover {
 .hidden {
     opacity: 0;
     filter: blur(15px);
-    transform: translateX(-100%);
-    transition: all 0.5s;
+    transform: translateY(100%);
+    transition: all 0.8s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0px);
-    transform: translateX(0);
-    transition: all 0.5s;
+    transform: translateY(0);
+    transition: all 0.8s;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
