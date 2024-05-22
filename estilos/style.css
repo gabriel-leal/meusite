@@ -190,14 +190,14 @@ footer a:hover {
 .hidden {
     opacity: 0;
     filter: blur(15px);
-    transform: translateY(100%);
+    transform: translateX(-100%);
     transition: all 0.8s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0px);
-    transform: translateY(0);
+    transform: translateX(0);
     transition: all 0.8s;
 }
 
@@ -221,4 +221,17 @@ footer a:hover {
         text-align: center;
     }
 
+    .hidden {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateX(-100%);
+        transition: all 0.8s;
+    }
+    
+    .show {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateX(0);
+        transition: all 0.8s;
+    }
 }
